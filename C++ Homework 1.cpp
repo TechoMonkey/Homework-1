@@ -21,15 +21,15 @@ void ProblemOne(int a, int b)
 }
 void ProblemTwo()
 {
-    //Input string
+    
     string str = "Hello World";
 
-    //Initialize reverse with null string value
+    //Initialize reverse
     string rev = "";
 
     //Iterate input string in revrese order
     for (int i = str.length() - 1; i >= 0; i--) {
-        //concatenate characters to the reverse
+       
         rev = rev + str[i];
     }
 	cout << str<< endl;
