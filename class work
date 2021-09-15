@@ -19,27 +19,37 @@ void ProblemOne(int a, int b)
 		count++;
 	}
 }
-void ProblemTwo()
+void ProblemTwo(string original)
 {
     
-    string str = "Hello World";
+ 
 
     //Initialize reverse
     string rev = "";
 
     //Iterate input string in revrese order
-    for (int i = str.length() - 1; i >= 0; i--) {
+    for (int i = original.length() - 1; i >= 0; i--) {
        
         rev = rev + str[i];
     }
-	cout << str<< endl;
+	cout << original<< endl;
     cout << rev;
  
 }
 void ProblemThree(string str)
 {
-
-   
+	string result = "";
+	\\ 43 is making an array that seperates the letters then it goes through a if statement
+	for (int i = 0; 1 < str.length() i++) {
+       
+        bool isVowel = false;
+	
+	if(str[i]=="a")
+	{
+	isVowel = true;
+	}
+    }
+   return result;
 }
 
 
@@ -48,7 +58,7 @@ int main()
 	cout << "Problem One"<< endl;
 	ProblemOne(5,10);
 	cout << endl <<"Problem Two" << endl;
-	ProblemTwo();
+	ProblemTwo("Hello World");
 	cout << endl<< "Problem Three" << endl;
 	ProblemThree("the cake is a lie");
 	
